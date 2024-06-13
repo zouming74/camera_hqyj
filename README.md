@@ -19,8 +19,21 @@
 ## Usage
 你经需要将本仓库克隆到本地。你可以在git bash中输入以下命令。
 ```sh
-
+git clone https://github.com/zouming74/camera_hqyj.git
 ```
+
+[服务器代码](server_code/server.c) 
+```sh
+gcc -pthread server.c -o server  //编译
+
+./server //运行
+```
+
+[qt代码](./untitled.pro)用qt打开即可
+
+
+
+
 ## Contributing
 非常欢迎你的加入！[提交一个 Issue](https://github.com/RichardLitt/standard-readme/issues/new) 或者提交一个 Pull Request。
 
